@@ -1,0 +1,16 @@
+subscribers:
+  - name:        "raw Vel input"
+    topic:       "/mux_vel_raw/cmd_vel"
+    timeout:     0.1
+    priority:    5
+    short_desc:  "The default cmd_vel, controllers unaware that we are multiplexing cmd_vel should come here"
+  - name:        "Navigation stack - move_base"
+    topic:       "/mux_vel_nav/cmd_vel"
+    timeout:     0.5
+    priority:    3
+    short_desc:  "Navigation stack controller"
+  - name:        "Keyboard operation"
+    topic:       "/mux_vel_keyboard/cmd_vel"
+    timeout:     0.1
+    priority:    7
+publisher:       "/cmd_vel"

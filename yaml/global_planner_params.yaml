@@ -1,0 +1,4 @@
+global_planner:
+  use_dijkstra: false
+  use_grid_path: true
+  default_tolerance: 0.05 # tolerancja końca ścieżki z zadanym celem
