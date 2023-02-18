@@ -1,3 +1,10 @@
+# Blok manipulacyjny 
+W części poświęconej manipulatorom największy nacisk położony był na opanowanie zadawania ruchu w różnych trybach (w przestrzeni konfiguracyjnej, operacyjnej, z wykorzystaniem sprzężenia od dodatkowych czujników). Efektem prac było zrealizowanie 2 projektów w środowisku symulacyjnym:
+1. Chwycenie i przeniesienie obiektu z jednego stolika na drugi
+2. Otworzenie szafki jednocześnie nie uszkadzając jej.
+Implementacja obu probjektów zakładała możliwe zmiany w środowisku (np. zmiana pozycji obiektu, stolików, szafki).
+
+
 # Projekt 1 - klasyczny pick&place
 ## Wstęp
   Celem pierwszego projektu była implementacja prostego algorytmu umożliwiającemu (symulowanemu) robotowi Velma przeniesienie pewnego obiektu z jednego na drugi stół znajdującego się przed nią. Okazuje się, że zadanie które jest banalne dla człowieka sprawia wiele trudności robotowi. Dwoma głównymi zadaniami stojącymi przed robotem jest wyliczenie odpowiednich kątów w stawach umożliwiających znalezienie się efektora w odpowiedniej pozycji (jest to zadanie odwrotnej kinematyki), między innymi, do chwycenia i odłożenia obiektu oraz wyznaczenie odpowiedniej trajektorii zmian kątów w stawach która pozwoli mu na ominięcie przeszkód podczas ruchu do obiektu ( w tym celu wykorzystywana jest planer posiadający octomapę środowskia, która została wcześniej stworzona). Implementacja naszego algorytmu skupiała się przede wszysktim na rozwiązaniu tych dwóch problemów, i odpowiedniej sekwencji ich wykonania.
