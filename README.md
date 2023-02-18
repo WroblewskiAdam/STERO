@@ -7,4 +7,4 @@ W ramach tego przedmiotu zrealizowane zostały następujące projekty:
 
 Szersza i bardziej szczegółowa dokumentacja części moblinej znajduje się w pliku [Sprawozdanie.pdf](Sprawozdanie.pdf)
 
-Część manipulacujna realizowana w ramach przedmiotu STERO znajduje sie w branchu [Velma](/github/WroblewskiAdam/STERO/tree/Velma)
+Część manipulacujna realizowana w ramach przedmiotu STERO znajduje sie w branchu [Velma](/github/STERO/tree/Velma)
