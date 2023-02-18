@@ -6,3 +6,5 @@ W ramach tego przedmiotu zrealizowane zostały następujące projekty:
 3. Zapoznanie się z algorytmem AMCL wykorzystywanym do lokalizacji globalej.
 
 Szersza i bardziej szczegółowa dokumentacja części moblinej znajduje się w pliku [Sprawozdanie.pdf](Sprawozdanie.pdf)
+
+Część manipulacujna realizowana w ramach przedmiotu STERO znajduje sie w branchu [Velma](/github/WroblewskiAdam/STERO/tree/Velma)
